@@ -15,9 +15,6 @@ This Google Scholar spider uses [Scraper API](https://www.scraperapi.com/) as th
 
 To monitor the scraper, this scraper uses [ScrapeOps](https://scrapeops.io/). **Live demo here:** [ScrapeOps Demo](https://scrapeops.io/app/login/demo)
 
-![ScrapeOps Dashboard](https://scrapeops.io/assets/images/scrapeops-promo-286a59166d9f41db1c195f619aa36a06.png)
-
-
 ## Using the Google Scholar Spider
 Make sure Scrapy is installed use command below if required:
 
@@ -101,3 +98,12 @@ the python code in runner.py
 python3 ./googlescholarSpider/runner.py
 ```
 Original code is adapted from @ian-kerins
+
+### you can plot the results as word cloud by using the script wordcloudscript
+
+![Example of the results](https://i.ibb.co/B6XJYdn/Denis-Research.png)
+
+```
+pip install wordcloud
+```
+and run the script as instructed
